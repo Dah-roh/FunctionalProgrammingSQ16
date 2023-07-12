@@ -17,7 +17,7 @@ public class Functions {
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        //Functional Interface, TriFunctional
+        //Functional Interface, TriFunctional, BiFunctional
         Function<String, String> printName = name ->  "Hello, "+name;
         Function<String, Integer> printStringLength = string -> string.length();
         System.out.println(printStringLength.apply("Gadibia"));
